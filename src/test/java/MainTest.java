@@ -39,7 +39,7 @@ public class MainTest {
         System.setOut(new PrintStream(out));
         float[] paquetes = {50, 30, 70};
         Main.ordenacion(paquetes);
-        assertEquals("[30.0, 50.0, 70.0]", Arrays.toString(paquetes)); 
+        assertEquals("[30.0, 50.0, 70.0]", Arrays.toString(paquetes));
         System.setOut(System.out); // restore System.out
     }
 
